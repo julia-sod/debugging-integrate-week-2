@@ -2,7 +2,6 @@
 // fill in the blanks
 
 console.log('--- loading: list all numbers');
-
 function listAllNumbersHandler() {
   debugger;
   console.log('\n--- action: list all numbers ---');
@@ -13,9 +12,11 @@ function listAllNumbersHandler() {
     ex: "1, 2, 3, 4, "
     ex: "1, 2, 3, 4, 5, 6, "
   */
+
+
   let numbersList = '';
-  for (let i = _; i <= _; i++) {
-    _;
+  for (let i = 0; i <= range; i++) {
+    numbersList += i + ' ';
   }
   console.log('numbersList:', typeof numbersList, '\n', numbersList);
 

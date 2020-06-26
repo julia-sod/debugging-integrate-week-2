@@ -1,6 +1,5 @@
 'use strict';
 // fill in the blanks
-
 console.log('--- loading: sum numbers in range');
 
 function sumNumbersInRangeHandler() {
@@ -10,8 +9,8 @@ function sumNumbersInRangeHandler() {
 
   // perform core logic
   let sum = 0;
-  for (let i = _; i <= _; i++) {
-    sum += _;
+  for (let i = 0; i <= range; i++) {
+    sum += i;
   }
   console.log('sum:', typeof sum, '\n', sum);
 
